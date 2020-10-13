@@ -11,6 +11,8 @@ Comment ticket
 	- add comment to list of comment
 track time
 
+save data - to file? to database?
+
 
 
 UI
@@ -21,4 +23,3 @@ display open tickets
 display closed tickets
 	- ticket comments
 submission - add comment / close ticket / open ticket
-
