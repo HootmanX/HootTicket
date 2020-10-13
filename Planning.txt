@@ -1,0 +1,24 @@
+Planning Page
+
+Ticketing system
+
+Open ticket
+	- track issue, start time, state open
+Pend ticket
+Close ticket
+	- change state to closed
+Comment ticket
+	- add comment to list of comment
+track time
+
+
+
+UI
+
+Potential log in for user / log out
+display open tickets
+	- view ticket comments
+display closed tickets
+	- ticket comments
+submission - add comment / close ticket / open ticket
+
