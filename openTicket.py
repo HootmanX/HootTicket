@@ -1,12 +1,21 @@
-import time
+from datetime import datetime
 
 class Ticket:
-        def __init__(self, issue, status):
+        def __init__(self, issue, state):
             self.issue = issue
-            self.startTime = time.localtime() # potential issue with timezones
+            self.state = state
+            # Grab time as start of ticket
+            self.now = datetime.now()
+            self.openTime = self.now.strftime("%m/%d/%Y, %H:%M:%S")
 
         def displayIssue(self):
             print(self.issue)
         
-        def state(self, status):
-                self.status=status
+        def setState(self, state):
+                self.state=state
+
+        def getState(self) :
+            return self.state
+            
+        def startTime(self) :
+            print(self.openTime)
