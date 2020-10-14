@@ -4,11 +4,12 @@ Encountered (potential) Issues:
 
 1. password visible in code
 2. creating new instance of class Ticket for each opened ticket. instead of just overwriting the same ticket.
+3. Upon exiting the program - all data is lost. 
 
 
 
-Solutions:
+Possible Solutions: * denotes fix was implemented
 
-1.
-2. Create a list, append each entry to the list using .append(CLASS(arg1, arg2)) - read up on stackoverflow
-
+1. store user/pass in separate file being referenced (hash file for security)
+*2. Create a list, append each entry to the list using .append(CLASS(arg1, arg2)) - read up on stackoverflow
+3. store all data in file (csv perhaps?) or database to be referenced/overwritten
