@@ -11,9 +11,6 @@ Comment ticket
 	- add comment to list of comment
 track time
 
-save data - to file? to database?
-
-
 
 UI
 
@@ -23,3 +20,10 @@ display open tickets
 display closed tickets
 	- ticket comments
 submission - add comment / close ticket / open ticket
+
+Future work
+-incorporate a way to save data when program is not running, have not decided if I want to go with a simple text file to write to/parse/pull from, or delve into databases. 
+-create a list of user login/passwords – need to set up way to hash or protect that data
+-UI/UX development perhaps, web based using html/css perhaps, hosted through gitpages.
+-User levels: users can submit and view / “techs” can update/comment/close
+
