@@ -38,6 +38,7 @@ def menu():
                             
                             Number of tickets open: """ + str(ticketID) + """
                             Selection: """)
+                                                       
 
         # Open a new ticket
         if selection == "1":
@@ -47,7 +48,8 @@ def menu():
                 n = input()
                 tickets.append(Ticket(ticketID, n))
                 print("Logged ticket request: ")
-                tickets[ticketID].displayIssue()
+                #tickets[ticketID].displayIssue()
+                print(tickets[ticketID].issue)
                 ticketID += 1
                 print("Would you like to open another ticket? (y/n)")
                 n = input()
@@ -71,9 +73,9 @@ def menu():
             print("You have selected: " + n)
             print("Comment to add?")
             com = input()
-            tickets[m].addNotes(com)
+            tickets[m-1].addNotes(com)
             print("Displaying all comments on ticket")
-            tickets[m].displayNotes()
+            tickets[m-1].displayNotes()
             print("Enter any key to return to the menu.")
             n = input()
 
