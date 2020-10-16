@@ -6,6 +6,8 @@ Encountered (potential) Issues:
 2. creating new instance of class Ticket for each opened ticket. instead of just overwriting the same ticket.
 3. Upon exiting the program - all data is lost.
 4. menu.py line 66 - print("Ticket #" + str(a) + ":" + i.issue) [TypeError: can only concatenate str (not "int") to str]
+5. storing data in a sqlite3 db, can add ticket enteries, must overcome appending comments
+6. error checking - ex: comment ticket that ddoes not exist
 
 
 
