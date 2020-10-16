@@ -27,3 +27,9 @@ Future work
 -UI/UX development perhaps, web based using html/css perhaps, hosted through gitpages.
 -User levels: users can submit and view / “techs” can update/comment/close
 
+
+data persistence
+- sqlite
+
+Ticket needs an ID(int) and an Issue(str) and store all comments appended(list) and Time opened.
+
