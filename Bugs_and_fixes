@@ -17,6 +17,6 @@ Possible Solutions: * denotes fix was implemented
 * 2. Create a list, append each entry to the list using .append(CLASS(arg1, arg2)) - read up on stackoverflow *
 3. store all data in file (csv perhaps?) or database to be referenced/overwritten
 4. python print str and int using a comma. EX: print("Text starts on line: ", storedIntVariable, "\n")
-5. 
+5. commenting - create new table reference ID using foreign key to store appending comments into a new table.
 6. Add checking through IF statements. EX: select a ticket # - user inputs "a" - output: "incorrect selection, please type the number of the ticket"
    Sudo code:   if inputVariable != valueRange, print(errorMsg)
