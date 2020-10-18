@@ -10,6 +10,7 @@ Encountered (potential) Issues:
 6. error checking - ex: comment ticket that does not exist
 7. lots of unnecessary code after implementing DB
 8. comments not showing up when viewing (unless viewing all)
+9. comments not printing after intial code added from number 8 above.
 
 
 
@@ -26,4 +27,5 @@ Possible Solutions: * denotes fix was implemented
    This way when program is closed and reopened it will use stored data
    code readability is significantly better
    less redundent code
-8. addComment method was adding comments but not specifying to what ticket.
+8. addComment method was adding comments but not specifying to what ticket. Incorporated using foriegn key references ticket id.
+9. the addComment order of arguments was swapped, once swapped to correct orientation all worked.
