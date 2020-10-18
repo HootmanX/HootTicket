@@ -32,4 +32,5 @@ data persistence
 - sqlite
 
 Ticket needs an ID(int) and an Issue(str) and store all comments appended(list) and Time opened.
+After incorporating SQLite3 I may not need openTicket file at all. All data parsing is handled now in HootDB.py.
 
