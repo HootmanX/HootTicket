@@ -7,7 +7,8 @@ Encountered (potential) Issues:
 3. Upon exiting the program - all data is lost.
 4. menu.py line 66 - print("Ticket #" + str(a) + ":" + i.issue) [TypeError: can only concatenate str (not "int") to str]
 5. storing data in a sqlite3 db, can add ticket enteries, must overcome appending comments
-6. error checking - ex: comment ticket that ddoes not exist
+6. error checking - ex: comment ticket that does not exist
+7. lots of unnecessary code after implementing DB
 
 
 
@@ -20,3 +21,7 @@ Possible Solutions: * denotes fix was implemented
 5. commenting - create new table reference ID using foreign key to store appending comments into a new table.
 6. Add checking through IF statements. EX: select a ticket # - user inputs "a" - output: "incorrect selection, please type the number of the ticket"
    Sudo code:   if inputVariable != valueRange, print(errorMsg)
+7. Re-do menu to call DB data instead of pulling from input data
+   This way when program is closed and reopened it will use stored data
+   code readability is significantly better
+   less redundent code
