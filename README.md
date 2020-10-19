@@ -8,6 +8,6 @@ Password: hoot
 
 **FOR WINDOWS USERS**
 
-Download zipped repo
-Extract files
-Run the HTMS.exe file
+1. Download zipped repo
+2. Extract files
+3. Run the HTMS.exe file
